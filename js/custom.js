@@ -1,7 +1,7 @@
 /* Author: Luis Zuno
    Web: luiszuno.com
 */
-
+/*
 
 // Jquery with no conflict
 jQuery(document).ready(function($) {
@@ -35,3 +35,4 @@ jQuery(document).ready(function($) {
 	
 
 
+*/
