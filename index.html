@@ -1,245 +1,115 @@
-<!doctype html>
-<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
-<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
-<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
-<!-- Consider adding a manifest.appcache: h5bp.com/d/Offline -->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<!DOCTYPE html>
 <head>
-<title>CFZeon</title>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="css/style.css">
-<link rel="stylesheet" href="css/bootstrap.css">
-<link rel="stylesheet" href="css/bootstrap-responsive.css">
-<link rel="stylesheet" href="js/fancybox/jquery.fancybox-1.3.4.css">
-<link rel="stylesheet" href="css/responsive.css">
-<link href='http://fonts.googleapis.com/css?family=Lato:700' rel='stylesheet' type='text/css'>
-<script src="js/modernizr-2.5.3.min.js"></script>
+  <title>Welcome</title>
+  <script src="js/scripts.js"></script>
+  <link rel="stylesheet" href="style/styles.css">
 </head>
-<body id="top-section" data-spy="scroll" data-target="#topnav"  data-offset="70" >
-<div class="container">
-  <header>
-    <!-- navbar -->
-    <div id="topnav" class="navbar navbar-fixed-top">
-      <div class="navbar-inner">
-        <div class="container">
-          <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
-          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </a>
-          <!-- Collapse - Everything you want hidden at 940px or less, place within here -->
-          <div class="nav-collapse">
-            <!-- Main nav -->
-            <ul  class="nav">
-              <li class="active"><a href="#top-section">Top</a></li>
-              <li><a href="#work-section">Work</a></li>
-              <li><a href="#info-section">Information</a></li>
-              <li><a href="#contact-section">Contact</a></li>
+<body class="standardfont">
+  <!-- a CV should have a top header -->
+  <div class="wrapper">
+    <header class="heading">
+      Zeon's CV
+      <br><br>
+      <a href="https://github.com/CFZeon/CFZeon.github.io" class="clickable">
+        View the source here
+      </a>
+    </header>
+
+    <div>
+      <div>
+        <h1>Zeon Chua's CV</h1>
+        <p>
+          <a href="zeon_chua@u.nus.edu" class="clickable">Email</a> / 
+          <a href="https://www.linkedin.com/in/zeonchua/" class="clickable">LinkedIn</a> / 
+          <a href="https://www.github.com/cfzeon" class="clickable">Github</a>
+        </p>
+        <p class="textcolor"><small><em>Year 4 Computer Engineering Student at the National University of Singapore</em></small></p>
+        <hr>
+      </div>
+      <div>
+        <h2>Education</h2>
+        <div>
+          <p class="textcolor">
+            <strong style="color:black;">Bachelors of Computer Engineering with Honours</strong> @ National University of Singapore (Aug 2019 - Aug 2023)
+            <ul class="textcolor">
+              <li>Cumulative Average Point: 4.29</li>
             </ul>
-            <!-- ENDS main nav -->
-            <!-- social -->
-            <ul class="nav pull-right ">
-              <li class="divider-vertical"></li>
-              <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown"> Social <b class="caret"></b> </a>
-                <ul class="dropdown-menu social-menu">
-                  <li><a href="https://twitter.com/Coffee_with_Z"><i class="social-icon twitter"></i> Twitter</a></li>
-                  <li><a href="https://www.linkedin.com/in/zeonchua"><i class="social-icon linkedin"></i> LinkedIn</a></li>
-                </ul>
+          </p>
+        </div>
+      </div>
+
+      <br>
+
+      <div>
+        <h2>Work Experience</h2>
+        <div>
+          <p class="textcolor">
+            <strong style="color:black;">Software Engineer Intern</strong> @ Omron APAC (Jun 2021 - Dec 2021)
+            <ul class="textcolor">
+              <li>Produced and maintained ROS2 packages for Omron robots</li>
+              <li>Formulated obstacle avoidance algorithm for mobile robots using 3D Stereo Cameras and LiDAR sensors in C++ and Python</li>
+              <li><strong style="color:black;">Technologies used:</strong> 
+                <a href="https://docs.ros.org/en/foxy/index.html" class="clickable">ROS2 Foxy</a></li>
+            </ul>
+          </p>
+        </div>
+        <div>
+          <p class="textcolor">
+            <strong style="color:black;">Contracted Programmer</strong> @ Danone (Jun 2020 - May 2022)
+            <ul class="textcolor">
+              <li>Programmed and automated a batch image processing solution to mass produce vouchers in Python</li>
+              <li>Streamlined workflow conserved budget and outstanding performance secured a contract</li>
+              <li><strong style="color:black;">Technologies used:</strong>
+                <a href="https://www.python.org/" class="clickable">Python</a>, 
+                <a href="https://pypi.org/project/python-barcode/" class="clickable">python-barcode</a>, 
+                <a href="https://python-pillow.org/" class="clickable">Pillow</a>
               </li>
             </ul>
-            <!-- ENDS Social -->
-          </div>
-          <!-- ENDS Collapse -->
+          </p>
+        </div>
+      </div>
+
+      <br>
+
+      <div>
+        <h2>Projects</h2>
+        <div>
+          <p class="textcolor">
+            <strong style="color:black;">Job Recruitment Site</strong>
+            <ul class="textcolor">
+              <li>Created a site for recruiters to find suitable applicants, and for job seekers to find employment</li>
+              <li>Check the project out <a class="clickable" href="https://github.com/CFZeon/JobSearch">here</a></li>
+              <li><strong style="color:black;">Technologies used:</strong> 
+                <a href="https://www.djangoproject.com/" class="clickable">Django</a> ,HTML, CSS, Javascript</li>
+            </ul>
+          </p>
+        </div>
+        <div>
+          <p class="textcolor">
+            <strong style="color:black;">Pet Shop Website</strong>
+            <ul class="textcolor">
+              <li>Created a pet shop website for pet owners to find suitable caretakers for their pets over a period of time, deployed on Heroku</li>
+              <li><strong style="color:black;">Technologies used:</strong>
+                <a href="https://flask.palletsprojects.com/en/2.2.x/" class="clickable">Flask</a>, 
+                <a href="https://www.postgresql.org/" class="clickable">PostgreSQL</a>
+              </li>
+            </ul>
+          </p>
+        </div>
+      </div>
+
+      <br>
+
+      <div>
+        <h2>Technical Skills</h2>
+        <div class="textcolor">
+          <ul class="textcolor">
+            <li>Familiar in Verilog, C, C++, C#, Java, Javascript, Python, HTML and CSS</li>
+            <li>Experience in using PostgreSQL and SQLite3</li>
+            <li>Digital Illustration</li>
+          </ul>
         </div>
       </div>
     </div>
-    <!-- ENDS navbar -->
-  </header>
-  <!-- MAIN -->
-  <div id="main" role="main">
-    <!-- Hero -->
-    <div class="hero-unit">
-      <h1>Hello, i am Zeon!</h1>
-      <p>Year 2 Computer Engineering Student at National University of Singapore.</p>
-    </div>
-    <!-- ENDS hero -->
-    <!-- Work -->
-    <section id="work-section">
-      <div  class="page-header">
-        <h1>Featured Projects <small>Selected items from projects I have done</small></h1>
-      </div>
-      <ul class="thumbnails">
-        <li class="span4"> <a href="https://docs.google.com/document/d/1x8l4mX185L1iVoelK6xerwvGq_qyui19uRGImWKWZwA/edit" target="_blank" class="thumbnail"> <img src="https://nusskylab-dev.comp.nus.edu.sg/posters/2020/2392.png" alt="Pipteste"> </a> <span class="thumb-caption">Demonhaven</span> </li>
-        <li class="span4"> <a href="https://twitter.com/Coffee_with_Z/status/1265332149793640451" target="_blank" class="thumbnail"> <img src="https://pbs.twimg.com/media/EY9c35oUEAAmpai?format=jpg&name=small" alt="Media Control Macro Pad"> </a> <span class="thumb-caption">Media Control Macro Pad</span> </li>
-        <li class="span4"> <a class="thumbnail"> <img src="img/dummies/03.jpg" alt="Discord Bot RPG"> </a> <span class="thumb-caption">Discord Bot RPG (no repository yet!)</span> </li>
-      </ul>
-	  <div  class="page-header">
-        <h1>Featured Digital Illustrations <small>Digital Illustrations that showcase the best of my abilities</small></h1>
-      </div>
-      <ul class="thumbnails">
-        <li class="span4"> <a href="https://twitter.com/Coffee_with_Z/status/1341457874547982337" target="_blank" class="thumbnail"> <img src="https://pbs.twimg.com/media/EqdHG54U8AA0XxY?format=jpg&name=4096x4096" width="960" height="540" alt="Christmas 2020"> </a> <span class="thumb-caption">Christmas 2020</span> </li>
-        <li class="span4"> <a href="https://twitter.com/Coffee_with_Z/status/1339605873249853444" target="_blank" class="thumbnail"> <img src="https://pbs.twimg.com/media/EqdHG53U8AIbVYd?format=jpg&name=4096x4096" width="800" height="800" alt="Face Study"> </a> <span class="thumb-caption">Face Study</span> </li>
-        <li class="span4"> <a href="https://twitter.com/Coffee_with_Z/status/1240277892363210752" target="_blank" class="thumbnail"> <img src="https://pbs.twimg.com/media/EqdHXM8UwAAKx8T?format=jpg&name=4096x4096" width="960" height="540" alt="Enchanted Forest"> </a> <span class="thumb-caption">Enchanted Forest</span> </li>
-      </ul>
-    </section>
-    <!-- ENDS work -->
-    <!-- info -->
-    <section id="info-section" class="information" >
-      <div  class="page-header">
-        <h1>Information <small>About Me</small></h1>
-      </div>
-      <ul id="information-tabs" class="nav nav-pills ">
-        <li><a href="#summary" data-toggle="tab">Summary</a></li>
-        <li><a href="#skills" data-toggle="tab">Skills</a></li>
-        <li><a href="#experience" data-toggle="tab">Experience</a></li>
-        <li><a href="#education" data-toggle="tab">Education</a></li>
-        <li><a href="#awards" data-toggle="tab">Awards</a></li>
-      </ul>
-      <!-- tab content -->
-      <div class="tab-content">
-        <!-- Summary -->
-        <div class="summary-section tab-pane active" id="summary">
-          <p ><strong>I'm not active on social media! It is easier to contact me through LinkedIn or Twitter on the top-right!</strong><br>
-		  <em>I like making things.</em><br>
-		  In fact, I started learning HTML and CSS just to create this site.<br>
-		  This site is very rudimentary and simple now, but I will add on as I learn and maybe one day create my own template!<br>
-		  Some of my projects include my media control macro pad, a batch image processing script in Python, and a Discord bot RPG.<br>
-		  I am also a self-taught digital illustrator and make illustrations in my free time!<br></p>
-        </div>
-        <!-- ENDS Summary -->
-        <!-- Skills -->
-        <div class="tab-pane listing" id="skills">
-          <div class="entry">
-            <div class="clearfix">
-              <div class="rating p"> <i class="icon-star"></i> <i class="icon-star"></i> <i class="icon-star"></i> </div>
-              <h3 class="heading pull-leasft">Programming</h3>
-            </div>
-            <p>I am proficient in C, C++, Java and Python. Other things I can do include using PostgreSQL and some minor web development.</p>
-          </div>
-          <div class="entry">
-            <div class="clearfix">
-              <div class="rating p"> <i class="icon-star"></i> <i class="icon-star"></i> <i class="icon-star-empty"></i> </div>
-              <h3 class="heading pull-leasft">Digital Illustration</h3>
-            </div>
-            <p>As a self-taught digital illustrator, I specialize in anime-styled art pieces. Check out my portfolio <a href="https://www.pixiv.net/en/users/9057868">here</a></p>
-          </div>
-        </div>
-        <!-- ENDS Skills -->
-        <!-- Experience -->
-        <div class="tab-pane" id="experience">
-          <table class="table experience-table">
-            <tbody>
-              <tr>
-                <td><h3 class="position" >Contracted Programmer</h3>
-                  <span class="date"> Jun 2020 - Dec 2020</span><small>Danone</small></td>
-                <td><p>Created a script in python to batch generate images that are ready for consumers to use.</p></td>
-              </tr>
-              <!-- sample entry here
-			  <tr>
-                <td><h3 class="position">Chief Executive Officer</h3>
-                  <span class="date"> Oct 2000 - Sep 2011</span><small>Acme Toys</small></td>
-                <td><p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi.</p></td>
-              </tr>
-			  -->
-            </tbody>
-          </table>
-        </div>
-        <!-- ENDS Experience -->
-        <!-- Education -->
-        <div class="tab-pane listing" id="education">
-          <div class="entry">
-            <h3 class="heading">National University of Singapore</h3>
-            <span class="date">2019 – Current</span>
-            <p>Major: Computer Engineering</p>
-          </div>
-          <!-- sample entry here 
-		  <div class="entry">
-            <h3 class="heading">Helwan University</h3>
-            <span class="date">2004 – 2007</span>
-            <p>Completed executive training in Sales Motivation, CRM, Management and Sales</p>
-          </div>
-		  -->
-        </div>
-        <!-- ENDS Education -->
-        <!-- Awards -->
-		<!--Blank for now
-        <div class="tab-pane" id="awards">
-          <ul class="awards-list">
-            <li>
-              <h3  class="heading">“Elite Author” at ThemeForest </h3>
-              <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.</p>
-              <a class="btn" href="#">Link</a></li>
-            <li>
-              <h3  class="heading">“Elite Author” at ThemeForest </h3>
-              <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.</p>
-              <a class="btn" href="#">Link</a></li>
-            <li>
-              <h3  class="heading">“Elite Author” at ThemeForest </h3>
-              <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.</p>
-              <a class="btn" href="#">Link</a></li>
-          </ul>
-        </div>
-		-->
-        <!-- ENDS Awards -->
-      </div>
-      <!-- ENDS tab content -->
-    </section>
-    <!-- ENDS info -->
-    <!-- Contact -->
-    <section id="contact-section" >
-      <div  class="page-header">
-        <h1>Contact <small> Get in touch</small></h1>
-      </div>
-      <div class="row">
-        <!-- Form col -->
-		<!--
-        <div class="span8">
-          <form class="well" id="contactForm" action="#" method="post">
-            <label>Your Name</label>
-            <input type="text" class="input-xlarge" placeholder="Whats your name?" name="name" id="name">
-            <label>Your Email</label>
-            <input type="text" class="input-xlarge" placeholder="How can i contact you?" name="email" id="email">
-            <label>Your Web</label>
-            <input type="text" class="input-xlarge" placeholder="Have a website?" name="web" id="web">
-            <label>Message</label>
-            <textarea class="input-xxlarge"  rows="4"  name="comments"  id="comments"></textarea>
-            <p>
-              <input type="button" value="Send" name="submit" id="submit" class="btn"/>
-            </p>
-          </form>
-          <div id="error" class="alert alert-error">Error</div>
-          <div id="sent-form-msg" class="alert alert-success">Your message was sent!</div>
-        </div>
-		-->
-        <!-- ENDS form col -->
-        <div class="span4">
-          <ul class="address-block unstyled">
-            <!--<li class="address"><i class="icon-home"></i> Address line, city, state ZIP</li>-->
-            <!--<li class="phone"><i class="icon-comment"></i> +123 456 789</li>-->
-            <li class="email"><i class="icon-envelope"></i><a href="#"> zeoncf@gmail.com</a></li>
-          </ul>
-        </div>
-		<div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="vertical" data-theme="dark" data-vanity="zeonchua"><a class="LI-simple-link" href='https://sg.linkedin.com/in/zeonchua?trk=profile-badge'>Zeon Chua</a></div>
-      </div>
-    </section>
-    <!-- ENDS Contact -->
   </div>
-  <!-- ENDS MAIN -->
-  <footer>
-    <hr>
-	<!--
-    <p>&copy; Copyright 2012 <a href="#">Company Name</a> All Rights Reserved | Website Template By <a target="_blank" href="http://www.luiszuno.com">luiszuno</a></p>
-	-->
-  </footer>
-</div>
-<!-- JavaScript at the bottom for fast page loading -->
-<script src="js/jquery-1.7.1.min.js"></script>
-<!-- scripts concatenated and minified via build script -->
-<script src="js/plugins.js"></script>
-<script src="js/bootstrap-dropdown.js"></script>
-<script src="js/bootstrap-scrollspy.js"></script>
-<script src="js/bootstrap-tab.js"></script>
-<script src="js/bootstrap-collapse.js"></script>
-<script src="js/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
-<script src="js/custom.js"></script>
-<!-- end scripts -->
 </body>
-</html>
